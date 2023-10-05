@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #3498db, #e74c3c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("https://media.istockphoto.com/id/1137759901/photo/summer-hot-weather-season-high-temperature-thermometer-with-city-view.jpg?s=2048x2048&w=is&k=20&c=3eIsDF7f9rRe4ZsbIGDv7268ue7fBQFA0H3-2OD0gB4=");
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-color: rgba(232, 155, 33, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.label {
+    display: block;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #27ae60;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+}
+
+.result-label {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.result-value {
+    color: #555;
+    font-weight: bold;
+}
